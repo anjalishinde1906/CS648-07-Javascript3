@@ -1,0 +1,67 @@
+body {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 20px;
+}
+
+#employeeTable td {
+    padding : 5px;
+}
+
+#employeeTable td:last-of-type {
+    float: right;
+}
+
+#name, #title, #extension {
+    border: 1px solid #008CBA;
+    height: 20px;
+    width: 180px;
+}
+
+#addButton {
+    background-color : #008CBA;
+    border: 1px solid #008CBA;
+    color: white;
+    font-size: 13px;
+    width: 90px;
+    padding: 8px 25px;
+}
+
+#employeeDetails {
+    width: 656px;
+}
+
+#employeeDetails tr{
+    height: 30px;
+}
+
+#employeeDetails th {
+    width: 167px;
+    background-color : #008CBA;
+    color: white;
+}
+
+#employeeDetails tr:nth-of-type(even) {
+    background-color: #87CEEB;
+}
+
+#employeeDetails tr:nth-of-type(odd) {
+    background-color: #ADD8E6;
+}
+
+.del {
+    background-color: #008CBA;
+    border: 1px solid #008CBA;
+    color: white;
+    font-size: 13px;
+    width: 80px;
+    padding: 3px 0;
+    margin: 7px 40px;
+} 
+
+span {
+    color: red;
+}
